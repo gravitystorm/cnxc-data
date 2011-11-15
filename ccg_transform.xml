@@ -11,6 +11,16 @@
     </output>
   </translation>
   <translation>
+    <name>Remove the ccg_id</name>
+    <description>There's a osm-id which might be useful to keep, but not until no-copy information tags are supported</description>
+    <match>
+      <tag k="ccg_id" v=".*" />
+    </match>
+    <output>
+      <copy-unmatched />
+    </output>
+  </translation>
+  <translation>
     <name>Remove ccg_ prefix</name>
     <description>The CXNC data comes with a prefix. To make things simpler, lets strip it off now</description>
     <match>
