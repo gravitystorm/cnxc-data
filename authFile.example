@@ -1,0 +1,4 @@
+host=localhost:5433
+database=snapshot-prod
+user=gravitystorm
+password=password
