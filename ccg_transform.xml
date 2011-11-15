@@ -21,14 +21,4 @@
       <tag from_match="ccg_attr" k="{1}" v="{0}" />
     </output>
   </translation>
-  <translation>
-    <name>Remove the osm_id tag</name>
-    <description>There is an osm id tag to indicate which entity was used for snapping, but this confuses the "completion" stuff</description>
-    <match>
-      <tag k="osm_id" />
-    </match>
-    <output>
-      <copy-unmatched />
-    </output>
-  </translation>
 </translations>
